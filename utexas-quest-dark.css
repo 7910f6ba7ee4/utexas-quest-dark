@@ -1,0 +1,133 @@
+@-moz-document domain("enterprise.login.utexas.edu"), domain("quest.cns.utexas.edu") {
+/* COLORS */
+
+:root {
+--dark-font-banner: #fff;
+--light-font-main: #c7cedc;
+--light-font-p1: #d4d5e1;
+--light-font-active: #eaeaf3;
+--dark-background: #1e1e2e;
+--darker-background: #1a1b26;
+--dark-fill: #2f2f3a;
+--error-background: #3d050557;
+--error-border: #5b2323;
+--notice-background: #7d840040;
+--notice-border: #75830dbf;
+--home-background: #272934;
+--home-background-alt: #323340;
+--home-border: #353435;
+}
+/* website all */
+a {
+    color: var(--light-font-main) !important;
+}
+
+body {
+    color: var(--light-font-p1);
+    background-color: var(--dark-background);
+}
+
+.footerWrap {
+    background-color: var(--darker-background);
+}
+
+.text-muted {
+    color: var(--light-font-main) !important;
+}
+
+/* error and notice */
+.error {
+    background-color: var(--error-background);
+    border-color: var(--error-border);
+}
+
+.notice {
+    background-color: var(--notice-background);
+    border-color: var(--notice-border);
+}
+
+/* login */
+g#ShieldTexas {
+    fill: var(--dark-font-banner) !important;
+}
+
+input.input, input.input::placeholder {
+    background-color: var(--dark-fill);
+    color: var(--dark-font-banner) !important;
+}
+
+/* home page */
+
+.logo {
+    background: var(--home-background) !important;
+    border: 2px solid var(--home-border);
+    border-radius: 5px;
+}
+
+.breadcrumb {
+    background-color: var(--home-background);
+}
+
+.form-control, #courses-target > div:nth-child(1) > div:nth-child(2) > select:nth-child(2), #courses-target > div:nth-child(1) > div:nth-child(1) > select:nth-child(2) {
+    background-color: var(--home-background);
+    color: var(--light-font-main);
+    border-color: var(--home-border);
+}
+
+.odd {
+    background-color: var(--home-background) !important;
+}
+
+.table {
+    color: var(--light-font-p1);
+}
+
+thead {
+    background-color: transparent;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: inherit;
+}
+
+/* classes */
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: var(--home-background);
+    border-color: var(--home-border);
+}
+
+.nav-tabs {
+    border-color: var(--home-border);
+}
+
+.card {
+    background-color: var(--home-background);
+}
+
+.breadcrumb-item.active {
+    color: var(--light-font-active);
+}
+
+/* else of website */
+.form-control:disabled, .form-control[readonly] {
+    background-color: var(--home-background-alt);
+}
+
+.form-control:focus {
+    background-color: var(--home-background);
+    color: var(--light-font-main);
+}
+
+/* questions */
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.instanceitempart-body-text img, .instanceitempart-explanation img, .instanceitempart-prompt img {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   }
+
+}
