@@ -1,5 +1,5 @@
-# utexas-quest-dark
-Dark mode overlay for utexas quest
+# utexas-quest-themes
+Currently includes dark mode overlay for utexas quest
 
 ## Prerequisites
 
