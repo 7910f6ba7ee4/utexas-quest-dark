@@ -129,5 +129,23 @@ thead {
    -webkit-filter: invert(1);
    filter: invert(1);
    }
+   
+.questionBar {
+    background-color: var(--home-background-alt);
+    color: var(--font-light);
+    padding-bottom: 1em;
+}
+
+/* todo */
+
+.textLayer{
+    opacity: 0;
+}
+
+.pdfViewer .page {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
 
 }
