@@ -165,5 +165,38 @@ thead {
     filter: invert(1);
 }
 
+/* Adding scrollbar to non-slide mode assignments*/
+
+.table.table-hover.table-borderless thead
+{
+	display: block !important;
+}
+
+.table.table-hover.table-borderless thead tr th:nth-child(1)
+{
+	width:  40px;
+}
+
+.table.table-hover.table-borderless thead tr th:nth-child(2)
+{
+	width:  130px;
+}
+
+.table.table-hover.table-borderless thead tr th:nth-child(3)
+{
+	width: 70px;
+}
+
+.table.table-hover.table-borderless tbody
+{
+	display: block;
+	max-height: 30rem !important;
+	overflow-y: scroll;
+}
+
+.form-inline.text-success.clickable
+{
+	width: 3rem;
+}
 
 }
